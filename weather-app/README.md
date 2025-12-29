@@ -1,16 +1,57 @@
-# React + Vite
+# 🌦️ WeatherApp
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive weather application built with **React (Vite)**.  
+The app fetches real-time weather data using the **OpenWeather API** and displays current weather conditions for any searched city.
 
-Currently, two official plugins are available:
+🔗 **Live Demo**  
+https://weatherapp-7d1e.onrender.com
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Search weather by city name
+- Displays current temperature
+- Shows minimum & maximum temperature
+- Displays humidity
+- Dynamic UI for Hot / Cold / Rainy weather
+- Responsive design
+- Fast performance with Vite
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+- React (Vite)
+- JavaScript
+- HTML
+- CSS
+- Material UI (MUI)
+- OpenWeather API
+- Render (Deployment)
+
+---
+
+## 📦 Dependencies
+
+### Core Dependencies
+- react
+- react-dom
+- @mui/material
+- @mui/icons-material
+
+### Development Dependencies
+- vite
+- @vitejs/plugin-react
+- eslint
+
+(All dependencies are listed in `package.json`)
+
+---
+
+## ▶️ How to Start the App
+
+### Clone the Repository
+```bash
+git clone https://github.com/your-username/weatherapp.git
+cd weather-app
