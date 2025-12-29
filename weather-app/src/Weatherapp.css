@@ -1,0 +1,54 @@
+.Weatherapp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f0f8ff;
+    font-family: Arial, sans-serif;
+    border: 2px wheat;
+    border-radius: 12px; /* rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 5px auto; /* center horizontally and add top margin */
+    max-width: 420px; /* reduce overall width */
+    transition: box-shadow 0.2s ease, transform 0.2s ease, border-color 0.2s ease;
+    overflow: hidden;
+}
+
+/* Container hover: darker shadow (black/grey) and border color change */
+.Weatherapp:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 18px 36px rgba(0, 0, 0, 0.25); /* stronger black shadow */
+    border-color: #005fb8; /* darker blue on hover */
+}
+
+/* When container is hovered, slightly amplify the card lift and shadow */
+.Weatherapp:hover .MuiCard-root {
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.22);
+}
+
+.Weatherapp .Infobox {
+    width: 100%;
+    display: flex;
+    justify-content: center; /* center card horizontally */
+}
+
+/* Small, rounded Card with hover lift */
+.Weatherapp .MuiCard-root {
+    max-width: 320px; /* smaller card width */
+    border-radius: 10px;
+    transition: transform 0.20s ease, box-shadow 0.20s ease, border-color 0.20s ease;
+    margin: 8px;
+}
+
+.Weatherapp .MuiCard-root:hover {
+    transform: translateY(-6px) scale(1.02);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.18);
+    border-color: #005fb8;
+}
+
+a {
+    color: lightslategrey;
+    text-decoration: none;
+}

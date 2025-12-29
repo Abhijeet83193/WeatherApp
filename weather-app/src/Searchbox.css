@@ -1,0 +1,30 @@
+.Searchbox {
+    text-align: center;
+}
+
+/* TextField (outlined) hover / focus styles */
+.Searchbox .MuiOutlinedInput-root {
+    border-radius: 8px;
+    transition: box-shadow 200ms ease, border-color 200ms ease, transform 200ms ease;
+}
+.Searchbox .MuiOutlinedInput-root:hover,
+.Searchbox .MuiOutlinedInput-root.Mui-focused {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+    transform: translateY(-2px);
+}
+
+/* Ensure outline color changes on hover/focus */
+.Searchbox .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline,
+.Searchbox .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+    border-color: #1976d2; /* MUI primary blue */
+}
+
+/* Button hover shadow */
+.Searchbox .MuiButton-root {
+    transition: box-shadow 200ms ease, transform 150ms ease;
+    border-radius: 8px;
+}
+.Searchbox .MuiButton-root:hover {
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.18);
+    transform: translateY(-3px);
+}
