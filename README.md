@@ -1,7 +1,7 @@
 # 🌦️ WeatherApp
 
 A modern and responsive weather application built with **React (Vite)**.  
-The app fetches real-time weather data using the **OpenWeather API** and displays current weather conditions for any searched city.
+The app fetches real-time weather data using the **OpenWeather API** and displays current weather conditions for any searched city
 
 🔗 **Live Demo**  
 https://weatherapp-7d1e.onrender.com
